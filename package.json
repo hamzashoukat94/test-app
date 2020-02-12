@@ -1,0 +1,27 @@
+{
+  "name": "grafana-app",
+  "version": "1.0.0",
+  "description": "My First App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamza Shoukat",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-systemjs-builder": "^1.0.0",
+    "grunt-typescript": "^0.8.0",
+    "install-peers": "^1.0.3",
+    "load-grunt-tasks": "^5.1.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.15"
+  }
+}
